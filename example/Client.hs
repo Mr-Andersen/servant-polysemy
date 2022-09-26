@@ -8,7 +8,7 @@ import Data.Version (Version, showVersion)
 import Polysemy
 import Polysemy.Error
 import Servant
-import Servant.Client.Streaming (ClientM, client)
+import Servant.Client (ClientM, client)
 import Servant.Polysemy.Client (ServantClient, runClient, runServantClient)
 
 {-
